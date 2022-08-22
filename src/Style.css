@@ -1,0 +1,122 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+h1,
+h3,
+h5,
+h6 {
+    color: #E95A59;
+}
+
+hr {
+    color: #E95A59;
+    width: 100px;
+    border: 2px solid #E95A59;
+    opacity: 1;
+}
+
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.cover {
+    height: 80vh;
+}
+
+.port-background {
+    background-image: url("../public/Image/bgImage2.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.rectangle {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 24, 25, 0.3);
+}
+
+.about-me {
+    background-color: #1E2233
+}
+
+.about-me-row {
+    border: 2px solid #E95A59;
+    border-radius: 5px;
+}
+
+.about-me-button {
+    background-color: #E95A59;
+    border: none;
+}
+.contact-me-nav:hover {
+    background-color: rgb(236, 81, 81,0.5);
+}
+
+li {
+    list-style-type: none;
+}
+
+.projects {
+    background-color: #24273D;
+}
+
+.projects-col {
+    border: 2px solid #E95A59;
+    border-radius: 5px;
+}
+
+.projects-title {
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+.projects-desc {
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.contact-me {
+    background-color: #1E2233
+}
+
+.port-number-div {
+    margin-right: -45px;
+}
+
+.port-numbers {
+    color: #2d3144
+}
+
+.port-numbers-hr {
+    color: #E95A59;
+    width: 30px;
+    border: 1px solid #ec5151;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+fieldset {
+    border: 1px solid #E95A59;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+legend {
+    float: none;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.port-messege {
+    height: 100px;
+}
+
+.meg-button {
+    background-color: #E95A59;
+    border: none;
+}
