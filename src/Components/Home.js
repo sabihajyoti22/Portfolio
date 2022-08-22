@@ -95,9 +95,11 @@ export default function Home() {
                                     </ul>
                                 </Col>
                             </Row>
-                            <Button className="about-me-button mt-2 ms-0" onClick={() => console.log("Primary")}>
-                                Download My CV
-                            </Button>
+                            <a href='Curriculum Vitae of Sabiha Nasrin Jyoti.pdf' download="Curriculum Vitae of Sabiha Nasrin Jyoti.pdf">
+                                <Button className="about-me-button mt-2 ms-0" onClick={() => console.log("Primary")}>
+                                    Download My CV
+                                </Button>
+                            </a>
                         </Col>
                     </Row>
                 </Container>
