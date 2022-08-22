@@ -67,6 +67,7 @@ li {
 .projects-col {
     border: 2px solid #E95A59;
     border-radius: 5px;
+    height: 280px;
 }
 
 .projects-title {

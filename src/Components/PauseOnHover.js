@@ -30,7 +30,7 @@ export default class PauseOnHover extends Component {
                 <h2 style={{color: "#E95A59"}}>Web Studio</h2>
                 <p className="projects-title">HTML, CSS, JavaScript</p>
                 <p className="projects-desc">
-                  Et sea sadipscing dolor lorem accusam voluptua sed rebum aliquyam. Dolore et kasd erat gubergren dolor kasd vero at. Eirmod accusam eirmod sea justo diam sea, et dolores sit consetetur.
+                  Simple landing page of a e-commarce website without any logic operation. Just used HTML CSS and BootStrap framework to make it more interective. Also used JavaScript to create a countdown timer
                 </p>
               </div>
             </a>
@@ -42,7 +42,7 @@ export default class PauseOnHover extends Component {
                 <h2 style={{color: "#E95A59"}}>Cafe De Burew</h2>
                 <p className="projects-title">HTML, CSS, JavaScript, Bootstrap</p>
                 <p className="projects-desc">
-                  Et sea sadipscing dolor lorem accusam voluptua sed rebum aliquyam. Dolore et kasd erat gubergren dolor kasd vero at. Eirmod accusam eirmod sea justo diam sea, et dolores sit consetetur.
+                  A simple single page website where anyone can order a cafe through logging in. User authentication and shopping cart is handled by JavaScript and BootStarp is used for styling. No database is used here.
                 </p>
               </div>
             </a>
@@ -54,19 +54,19 @@ export default class PauseOnHover extends Component {
                 <h2 style={{color: "#E95A59"}}>User Management App</h2>
                 <p className="projects-title">MongoDB, Express, React, NodeJS</p>
                 <p className="projects-desc">
-                  Et sea sadipscing dolor lorem accusam voluptua sed rebum aliquyam. Dolore et kasd erat gubergren dolor kasd vero at. Eirmod accusam eirmod sea justo diam sea, et dolores sit consetetur.
+                  This website is a complete MERN project where users information is stored. Some users can be deleted and edited through this website. Server is deployed in Heroku and frontend is deployed in Netlify
                 </p>
               </div>
             </a>
           </div>
           <div>
-            <a href="https://chat-box-2022.netlify.app/" target="blank" style={{textDecoration: "none"}}>
+            <a href="https://chat-box-app-2022.netlify.app/" target="blank" style={{textDecoration: "none"}}>
               <div className="projects-col m-2 p-3 text-center">
                 <RiChatVoiceFill />
                 <h2 style={{color: "#E95A59"}}>Chat Box</h2>
-                <p className="projects-title">MongoDB, Express, React, NodeJS, Scoket</p>
+                <p className="projects-title">Express, React, NodeJS, Scoket</p>
                 <p className="projects-desc">
-                  Et sea sadipscing dolor lorem accusam voluptua sed rebum aliquyam. Dolore et kasd erat gubergren dolor kasd vero at. Eirmod accusam eirmod sea justo diam sea, et dolores sit consetetur.
+                  Chat Box is a online messaging website. Only two users can communicate with each other at a time by choosing same chatroom. For connecting two processes Scoket.io is used.
                 </p>
               </div>
             </a>
@@ -76,9 +76,9 @@ export default class PauseOnHover extends Component {
               <div className="projects-col m-2 p-3 text-center">
                 <MdOutlineRealEstateAgent />
                 <h2 style={{color: "#E95A59"}}>Service Agency</h2>
-                <p className="projects-title">Complete MERN with Web Authentication</p>
+                <p className="projects-title">MongoDB, Express, React, NodeJS</p>
                 <p className="projects-desc">
-                  Et sea sadipscing dolor lorem accusam voluptua sed rebum aliquyam. Dolore et kasd erat gubergren dolor kasd vero at. Eirmod accusam eirmod sea justo diam sea, et dolores sit consetetur.
+                  This is an online service providing website. Where a user can find there required service and can request to get them. Where admin can also see the requests. User authentication is handled by google sign in.
                 </p>
               </div>
             </a>
@@ -90,7 +90,7 @@ export default class PauseOnHover extends Component {
                 <h2 style={{color: "#E95A59"}}>Guessing Game</h2>
                 <p className="projects-title">HTML, CSS, JavaScript</p>
                 <p className="projects-desc">
-                  Et sea sadipscing dolor lorem accusam voluptua sed rebum aliquyam. Dolore et kasd erat gubergren dolor kasd vero at. Eirmod accusam eirmod sea justo diam sea, et dolores sit consetetur.
+                  It is simple guessing game. Where a user has to input a number and the backend will generate a random number. When the user guesses the correct random number he/she wins the game. A user has only three chance for that.
                 </p>
               </div>
             </a>

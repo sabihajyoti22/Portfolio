@@ -55,7 +55,7 @@ export default function Home() {
                             <hr />
                             <p>
                                 My name is Sabiha Nasrin Jyoti. I have graduated from Ahsanullah Unversity of Scinece and Technology from the deperment of CSE in Janary of 2022.
-                                I want to persue my career as a web developer. I have acquired the necessary skills to build good and interactive websites. Some of my recent works are given below.
+                                I want to persue my career as a web developer. I have acquired the necessary skills to build good and interactive websites. Some of my recent works will be found below.
                             </p>
                             <Row className="about-me-row mx-1 px-5 py-3">
                                 <Col lg={4}>
