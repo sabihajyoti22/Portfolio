@@ -48,8 +48,7 @@ export default function Home() {
             <Container fluid className='about-me p-5' id="aboutMe">
                 <Container>
                     <Row>
-                        <Col lg={4} sm={12}>Column</Col>
-                        <Col lg={8} sm={12}>
+                        <Col lg={4} sm={12}>
                             <h5>Discover</h5>
                             <h2>About Me</h2>
                             <hr />
@@ -57,6 +56,8 @@ export default function Home() {
                                 My name is Sabiha Nasrin Jyoti. I have graduated from Ahsanullah Unversity of Scinece and Technology from the deperment of CSE in Janary of 2022.
                                 I want to persue my career as a web developer. I have acquired the necessary skills to build good and interactive websites. Some of my recent works will be found below.
                             </p>
+                        </Col>
+                        <Col lg={8} sm={12} className="pt-5">
                             <Row className="about-me-row mx-1 px-5 py-3">
                                 <Col lg={4}>
                                     <Row>
@@ -96,7 +97,7 @@ export default function Home() {
                                 </Col>
                             </Row>
                             <a href='Curriculum Vitae of Sabiha Nasrin Jyoti.pdf' download="Curriculum Vitae of Sabiha Nasrin Jyoti.pdf">
-                                <Button className="about-me-button mt-2 ms-0" onClick={() => console.log("Primary")}>
+                                <Button className="about-me-button mt-3 ms-0" onClick={() => console.log("Primary")}>
                                     Download My CV
                                 </Button>
                             </a>
