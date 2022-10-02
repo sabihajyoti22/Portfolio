@@ -90,7 +90,7 @@ export default class PauseOnHover extends Component {
                 <h2 style={{color: "#E95A59"}}>User Management Vue</h2>
                 <p className="projects-title">Vue, Vuetify, Vuex</p>
                 <p className="projects-desc">
-                  This website contains only frontend. Using vue a user management system has created to mange user.
+                  This website contains only frontend. Using vue a user management system has created to mange user. An admin can update, delete or edit an employee
                 </p>
               </div>
             </a>
