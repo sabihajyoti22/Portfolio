@@ -121,3 +121,7 @@ legend {
     background-color: #E95A59;
     border: none;
 }
+.test{
+    display: flex;
+    align-items: center;
+}

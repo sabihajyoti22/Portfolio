@@ -11,6 +11,7 @@ import "../Style.css"
 import PauseOnHover from './PauseOnHover';
 
 export default function Home() {
+    
     return (
         <>
             {/* Header */}
@@ -76,6 +77,7 @@ export default function Home() {
                                                 <li>Express</li>
                                                 <li>JQuery</li>
                                                 <li>Redux</li>
+                                                <li>Vue</li>
                                             </ul>
                                         </Col>
                                     </Row>

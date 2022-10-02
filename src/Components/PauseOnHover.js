@@ -6,7 +6,7 @@ import { RiChatVoiceFill } from "react-icons/ri"
 import { FaFantasyFlightGames } from "react-icons/fa"
 import { IconContext } from "react-icons/lib";
 import { FaCameraRetro } from "react-icons/fa";
-import { MdOutlineRealEstateAgent } from "react-icons/md";
+import { MdOutlineRealEstateAgent, MdOutlineSupervisedUserCircle } from "react-icons/md";
 
 export default class PauseOnHover extends Component {
   render() {
@@ -79,6 +79,18 @@ export default class PauseOnHover extends Component {
                 <p className="projects-title">MongoDB, Express, React, NodeJS</p>
                 <p className="projects-desc">
                   This is an online service providing website. Where a user can find there required service and can request to get them. Where admin can also see the requests. User authentication is handled by google sign in.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="https://user-management-system-vue-2022.netlify.app/" target="blank" style={{textDecoration: "none"}}>
+              <div className="projects-col m-2 p-3 text-center">
+                <MdOutlineSupervisedUserCircle />
+                <h2 style={{color: "#E95A59"}}>User Management Vue</h2>
+                <p className="projects-title">Vue, Vuetify, Vuex</p>
+                <p className="projects-desc">
+                  This website contains only frontend. Using vue a user management system has created to mange user.
                 </p>
               </div>
             </a>
