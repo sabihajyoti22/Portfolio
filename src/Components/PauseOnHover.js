@@ -48,7 +48,7 @@ export default class PauseOnHover extends Component {
             </a>
           </div>
           <div>
-            <a href="https://playful-gecko-5ddca4.netlify.app/" target="blank" style={{textDecoration: "none"}}>
+            <a href="https://user-management-app-2023.netlify.app/" target="blank" style={{textDecoration: "none"}}>
               <div className="projects-col m-2 p-3 text-center">
                 <RiUser2Fill />
                 <h2 style={{color: "#E95A59"}}>User Management App</h2>
