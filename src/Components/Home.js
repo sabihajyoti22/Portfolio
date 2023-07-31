@@ -39,7 +39,7 @@ export default function Home() {
                     <div className='cover d-flex justify-content-center align-items-center flex-column'>
                         <Image src="./Image/selfImage.jpg" height="250px" width="250px" roundedCircle />
                         <h1 className='name fw-bold'>Sabiha Nasrin Jyoti</h1>
-                        <p className='fs-5'>BSc. in CSE from Ahsanullah University of Science and Technology</p>
+                        <p className='fs-5'>Frontend Developer</p>
                     </div>
                     {/* <hr/><p>Scroll Down</p> */}
                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
                                     </ul>
                                 </Col>
                             </Row>
-                            <a href='Curriculum Vitae of Sabiha Nasrin Jyoti.pdf' download="Curriculum Vitae of Sabiha Nasrin Jyoti.pdf">
+                            <a href="Sabiha Nasrin Jyoti's Resume.pdf" download="Curriculum Vitae of Sabiha Nasrin Jyoti.pdf">
                                 <Button className="about-me-button mt-3 ms-0" onClick={() => console.log("Primary")}>
                                     Download My CV
                                 </Button>
