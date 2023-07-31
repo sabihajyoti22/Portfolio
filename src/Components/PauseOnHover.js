@@ -24,7 +24,7 @@ export default class PauseOnHover extends Component {
         <IconContext.Provider value={{size: "3rem", color: "#E95A59"}}>
         <Slider {...settings}>
         <div>
-            <a href="https://sabihajyoti22.github.io/Web-Studio/" target="blank" style={{textDecoration: "none"}}>
+            <a href="https://web-studio-amet.netlify.app/" target="blank" style={{textDecoration: "none"}}>
               <div className="projects-col m-2 p-3 text-center">
                 <FaCameraRetro />
                 <h2 style={{color: "#E95A59"}}>Web Studio</h2>
@@ -96,7 +96,7 @@ export default class PauseOnHover extends Component {
             </a>
           </div>
           <div>
-            <a href="https://sabihajyoti22.github.io/Guessing-Game/" target="blank" style={{textDecoration: "none"}}>
+            <a href="https://super-toffee-f5b82c.netlify.app/" target="blank" style={{textDecoration: "none"}}>
               <div className="projects-col m-2 p-3 text-center">
                 <FaFantasyFlightGames />
                 <h2 style={{color: "#E95A59"}}>Guessing Game</h2>
