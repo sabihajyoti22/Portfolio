@@ -36,7 +36,7 @@ export default class PauseOnHover extends Component {
             </a>
           </div>
           <div>
-            <a href="https://sabihajyoti22.github.io/Cafe-De-Burew/" target="blank" style={{textDecoration: "none"}}>
+            <a href="https://cafe-de-burew.netlify.app/" target="blank" style={{textDecoration: "none"}}>
               <div className="projects-col m-2 p-3 text-center">
                 <SiCoffeescript />
                 <h2 style={{color: "#E95A59"}}>Cafe De Burew</h2>
