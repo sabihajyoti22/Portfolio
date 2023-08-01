@@ -29,7 +29,8 @@ hr {
     background-image: url("../public/Image/bgImage2.jpg");
     background-repeat: no-repeat;
     height: 100vh;
-    position: relative;
+    object-fit: cover;
+    /* position: relative; */
 }
 
 .rectangle {
