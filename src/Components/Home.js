@@ -37,9 +37,11 @@ export default function Home() {
                         </Container>
                     </Navbar>
                     <div className='cover d-flex justify-content-center align-items-center flex-column'>
-                        <Image src="./Image/selfImage.jpg" height="250px" width="250px" roundedCircle />
+                        <Image style={{objectFit: "cover"}} src="./Image/selfImage.jpg" height="250px" width="250px" roundedCircle />
+                        
                         <h1 className='name fw-bold'>Sabiha Nasrin Jyoti</h1>
-                        <p className='fs-5'>Frontend Developer</p>
+                        <p className='fs-5'>Frontend Web Developer</p>
+                        <p className='fs-5'>JavaScript || Vue || React || Nuxt</p>
                     </div>
                     {/* <hr/><p>Scroll Down</p> */}
                 </div>
@@ -60,7 +62,7 @@ export default function Home() {
                         </Col>
                         <Col lg={8} sm={12} className="pt-5">
                             <Row className="about-me-row mx-1 px-5 py-3">
-                                <Col lg={4}>
+                                <Col lg={3}>
                                     <Row>
                                         <h6>Web Development Skills</h6>
                                         <Col lg={6}>
@@ -69,37 +71,50 @@ export default function Home() {
                                                 <li>CSS</li>
                                                 <li>JavaScript</li>
                                                 <li>React</li>
+                                                <li>Service-Worker</li>
                                             </ul>
                                         </Col>
                                         <Col lg={6}>
                                             <ul className='ps-0'>
                                                 <li>NodeJS</li>
                                                 <li>Express</li>
-                                                <li>JQuery</li>
-                                                <li>Redux</li>
                                                 <li>Vue</li>
+                                                <li>Vuex/Pinia</li>
                                             </ul>
                                         </Col>
                                     </Row>
                                 </Col>
-                                <Col lg={4}>
+                                <Col lg={3}>
                                     <h6>CSS Frameworks</h6>
                                     <ul className='ps-0'>
                                         <li>BootStarp</li>
                                         <li>Tailwind</li>
+                                        <li>Vuetify</li>
                                     </ul>
                                 </Col>
-                                <Col lg={4}>
-                                    <h6>Web Hosting</h6>
+                                <Col lg={3}>
+                                    <h6>Packages</h6>
+                                    <ul className='ps-0'>
+                                        <li>npm</li>
+                                        <li>nvm</li>
+                                        <li>Scoket.io</li>
+                                        <li>Quill.js</li>
+                                        <li>JS PDF</li>
+                                        <li>Axios</li>
+                                        <li>Apollo client</li>
+                                    </ul>
+                                </Col>
+                                <Col lg={3}>
+                                    <h6>Other Tools</h6>
                                     <ul className='ps-0'>
                                         <li>Github</li>
-                                        <li>Heroku</li>
-                                        <li>Netlify</li>
+                                        <li>Docker</li>
+                                        <li>Vite</li>
                                     </ul>
                                 </Col>
                             </Row>
                             <a href="Sabiha Nasrin Jyoti's Resume.pdf" download="Curriculum Vitae of Sabiha Nasrin Jyoti.pdf">
-                                <Button className="about-me-button mt-3 ms-0" onClick={() => console.log("Primary")}>
+                                <Button className="about-me-button mt-3 ms-0">
                                     Download My CV
                                 </Button>
                             </a>
