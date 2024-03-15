@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { SiCoffeescript } from "react-icons/si"
 import { RiUser2Fill } from "react-icons/ri"
+import { FaHive } from "react-icons/fa"
 import { RiChatVoiceFill } from "react-icons/ri"
 import { FaFantasyFlightGames } from "react-icons/fa"
-import { IconContext } from "react-icons/lib";
-import { FaCameraRetro } from "react-icons/fa";
+import { IconContext } from "react-icons/lib"
+import { FaCameraRetro } from "react-icons/fa"
 import { MdOutlineRealEstateAgent, MdOutlineSupervisedUserCircle } from "react-icons/md";
 
 export default class PauseOnHover extends Component {
@@ -43,6 +44,18 @@ export default class PauseOnHover extends Component {
                 <p className="projects-title">HTML, CSS, JavaScript, Bootstrap</p>
                 <p className="projects-desc">
                   A simple single page website where anyone can order a cafe through logging in. User authentication and shopping cart is handled by JavaScript and BootStarp is used for styling. No database is used here.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="https://cssanimations24.netlify.app/" target="blank" style={{textDecoration: "none"}}>
+              <div className="projects-col m-2 p-3 text-center">
+                <FaHive />
+                <h2 style={{color: "#E95A59"}}>CSS Animations</h2>
+                <p className="projects-title">Vite, Vue, CSS</p>
+                <p className="projects-desc">
+                  This website holds some CSS animations which includes carousel, scrollbased animations and 3D rotation. Carousel have scroll-snap behaviour, scroller have scaling animations and 3D rotation have perspective views
                 </p>
               </div>
             </a>
