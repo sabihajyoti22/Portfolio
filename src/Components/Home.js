@@ -11,7 +11,7 @@ import "../Style.css"
 import PauseOnHover from './PauseOnHover';
 
 export default function Home() {
-    
+
     return (
         <>
             {/* Header */}
@@ -37,8 +37,8 @@ export default function Home() {
                         </Container>
                     </Navbar>
                     <div className='cover d-flex justify-content-center align-items-center flex-column'>
-                        <Image style={{objectFit: "cover"}} src="./Image/selfImage.jpg" height="250px" width="250px" roundedCircle />
-                        
+                        <Image style={{ objectFit: "cover" }} src="./Image/selfImage.jpg" height="250px" width="250px" roundedCircle />
+
                         <h1 className='name fw-bold'>Sabiha Nasrin Jyoti</h1>
                         <p className='fs-5'>Frontend Web Developer</p>
                         <p className='fs-5'>JavaScript || Vue || React || Nuxt</p>
@@ -56,7 +56,7 @@ export default function Home() {
                             <h2>About Me</h2>
                             <hr />
                             <p>
-                                My name is Sabiha Nasrin Jyoti. I have graduated from Ahsanullah Unversity of Scinece and Technology from the deperment of CSE in Janary of 2022.
+                                My name is Sabiha Nasrin Jyoti. I have graduated from Ahsanullah Unversity of Science and Technology from the deparment of CSE in January of 2022.
                                 I want to persue my career as a web developer. I have acquired the necessary skills to build good and interactive websites. Some of my recent works will be found below.
                             </p>
                         </Col>
